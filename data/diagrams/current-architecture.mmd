@@ -1,0 +1,11 @@
+graph TD
+    Browser["Browser\n(React + Vite SPA)"] --> VPS
+
+    subgraph VPS["Single VPS — €120/mo"]
+        Express["Node.js Monolith\n(Express.js + Sequelize)\nArticles | Users | Comments | Tags\nAuth (JWT) | Feed | Search"]
+
+        Express --> PG[("PostgreSQL 15\n(single instance)\nUsers · Articles\nComments · Tags")]
+    end
+
+    style VPS fill:#ffe0e0,stroke:#cc0000,stroke-width:2px
+    style Express fill:#fff3cd,stroke:#856404

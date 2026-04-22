@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Bash(python3 skills/*)",
+      "Bash(git *)",
+      "Skill(claude-mermaid:mermaid-diagrams)",
+      "mcp__plugin_claude-mermaid_mermaid__mermaid_preview",
+      "mcp__plugin_claude-mermaid_mermaid__mermaid_save"
+    ]
+  }
+}

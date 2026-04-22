@@ -1,0 +1,37 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+*.log
+
+# Environment
+.env
+.env.*
+
+# Student-generated outputs (created during the exercise)
+output/adrs/*.md
+output/diagrams/*.svg
+output/diagrams/*.png
+output/diagrams/*.pdf
+output/rfc.md
+
+# Student-created agent files (copied from .template and filled in)
+CLAUDE.md
+team-lead/CLAUDE.md
+team-lead-2/CLAUDE.md
+team-lead-3/CLAUDE.md
+.claude/agents/team_lead.md
+.claude/agents/team_lead_2.md
+.claude/agents/team_lead_3.md
+.claude/agents/rfc_writer.md
+
+# Claude Code local overrides
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
