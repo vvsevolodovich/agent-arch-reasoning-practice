@@ -1,0 +1,3 @@
+[submodule "qpay-multiplatform"]
+	path = qpay-multiplatform
+	url = https://github.com/mustfaibra/QPayMultiplatform.git
